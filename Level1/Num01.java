@@ -3,7 +3,7 @@ package level1;
 public class Num01 {
 
 	/*
-	 * level1 2016년 
+	 * level1 2016년
 	 * https://programmers.co.kr/learn/courses/30/lessons/12901
 	 */
 	
