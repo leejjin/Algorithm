@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Num03 {
 
 	/*
-	 * °°Àº ¼ıÀÚ´Â ½È¾î 
+	 * ê°™ì€ ìˆ«ìëŠ” ì‹«ì–´ 
 	 * https://programmers.co.kr/learn/courses/30/lessons/12906
 	 */
 
