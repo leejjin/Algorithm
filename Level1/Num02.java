@@ -3,7 +3,7 @@ package level1;
 public class Num02 {
 
 	/*
-	 * level1 °¡¿îµ¥ ±ÛÀÚ °¡Á®¿À±â 
+	 * level1 ê°€ìš´ë° ê¸€ì ê°€ì ¸ì˜¤ê¸°  
 	 * https://programmers.co.kr/learn/courses/30/lessons/12903
 	 */
 
@@ -12,9 +12,9 @@ public class Num02 {
 	    	int mid = s.length()/2;
 	    	
 	        String answer = "";
-	    	if(s.length()%2 == 0) { //Â¦¼ö
+	    	if(s.length()%2 == 0) { //ì§ìˆ˜
 	    		answer = s.substring(mid-1, mid+1);
-	    	}else { //È¦¼ö
+	    	}else { //í™€ìˆ˜
 	    		answer = s.substring(mid, mid+1);
 	    	}
 	  
