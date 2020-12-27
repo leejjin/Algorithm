@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.LinkedHashSet;
 import java.util.StringTokenizer;
 
-public class BOJ15633_N과M9_순열_dfs {
+public class BOJ15663_N과M9_순열_dfs {
 
 	static int N, M;
 	static int[] result, nums;
