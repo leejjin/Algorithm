@@ -15,7 +15,7 @@ public class BOJ2003_수들의합2_풀이2_투포인터 {
 		N = Integer.parseInt(st.nextToken());
 		M = Integer.parseInt(st.nextToken());
 
-		nums = new int[N + 1];
+		nums = new int[N];
 
 		st = new StringTokenizer(br.readLine(), " ");
 		for (int i = 0; i < N; i++) {
@@ -24,18 +24,21 @@ public class BOJ2003_수들의합2_풀이2_투포인터 {
 
 		int cnt = 0;
 		int start = 0, end = 0;
-		int total = 0;
+		int total = nums[0];
 
-		while (end <= N) {
-			if (total < M) {
-				total += nums[end];
+		while (end < N) {
+			if (total == M)
+				cnt++;
+
+			if (total <= M) {
 				end++;
+				if (end == N)
+					break;
+				total += nums[end];
 			} else {
 				total -= nums[start];
 				start++;
 			}
-			if (total == M)
-				cnt++;
 		}
 		System.out.println(cnt);
 	}
