@@ -10,6 +10,6 @@
 - [다익스트라](/BOJ/다익스트라)
 - [투포인터](/BOJ/투포인터)
 
-### 프로그래머 스
+### 프로그래머스
 - [정렬](/PROGRAMMERS/정렬)
 - [BFS_DFS](/PROGRAMMERS/BFS_DFS)
