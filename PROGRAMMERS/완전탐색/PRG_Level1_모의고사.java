@@ -1,5 +1,4 @@
-package day0304;
 
-public class PRG_Level1_¸ğÀÇ°í»ç {
+public class PRG_Level1_ëª¨ì˜ê³ ì‚¬ {
 
 }
